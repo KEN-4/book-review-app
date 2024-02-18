@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E784D8F52B81F0C1009E8CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784D8F42B81F0C1009E8CBA /* AppDelegate.swift */; };
 		E784D8F72B81F0C1009E8CBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784D8F62B81F0C1009E8CBA /* SceneDelegate.swift */; };
-		E784D8F92B81F0C1009E8CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784D8F82B81F0C1009E8CBA /* ViewController.swift */; };
+		E784D8F92B81F0C1009E8CBA /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784D8F82B81F0C1009E8CBA /* InitialViewController.swift */; };
 		E784D8FC2B81F0C1009E8CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E784D8FA2B81F0C1009E8CBA /* Main.storyboard */; };
 		E784D8FE2B81F0C1009E8CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E784D8FD2B81F0C1009E8CBA /* Assets.xcassets */; };
 		E784D9012B81F0C1009E8CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E784D8FF2B81F0C1009E8CBA /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		E784D8F12B81F0C1009E8CBA /* book-review-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "book-review-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E784D8F42B81F0C1009E8CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E784D8F62B81F0C1009E8CBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E784D8F82B81F0C1009E8CBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E784D8F82B81F0C1009E8CBA /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		E784D8FB2B81F0C1009E8CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E784D8FD2B81F0C1009E8CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E784D9002B81F0C1009E8CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				E784D8F42B81F0C1009E8CBA /* AppDelegate.swift */,
 				E784D8F62B81F0C1009E8CBA /* SceneDelegate.swift */,
-				E784D8F82B81F0C1009E8CBA /* ViewController.swift */,
+				E784D8F82B81F0C1009E8CBA /* InitialViewController.swift */,
 				E784D8FA2B81F0C1009E8CBA /* Main.storyboard */,
 				E784D8FD2B81F0C1009E8CBA /* Assets.xcassets */,
 				E784D8FF2B81F0C1009E8CBA /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E784D8F92B81F0C1009E8CBA /* ViewController.swift in Sources */,
+				E784D8F92B81F0C1009E8CBA /* InitialViewController.swift in Sources */,
 				E784D8F52B81F0C1009E8CBA /* AppDelegate.swift in Sources */,
 				E784D8F72B81F0C1009E8CBA /* SceneDelegate.swift in Sources */,
 			);
@@ -292,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86D43JTR94;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "book-review-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86D43JTR94;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "book-review-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

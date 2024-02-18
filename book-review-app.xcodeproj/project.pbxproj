@@ -14,6 +14,7 @@
 		E784D8FE2B81F0C1009E8CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E784D8FD2B81F0C1009E8CBA /* Assets.xcassets */; };
 		E784D9012B81F0C1009E8CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E784D8FF2B81F0C1009E8CBA /* LaunchScreen.storyboard */; };
 		E784D90A2B81FFF4009E8CBA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E784D9092B81FFF4009E8CBA /* Alamofire */; };
+		E784D90D2B82010B009E8CBA /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = E784D90C2B82010B009E8CBA /* KeychainAccess */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E784D90D2B82010B009E8CBA /* KeychainAccess in Frameworks */,
 				E784D90A2B81FFF4009E8CBA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +89,7 @@
 			name = "book-review-app";
 			packageProductDependencies = (
 				E784D9092B81FFF4009E8CBA /* Alamofire */,
+				E784D90C2B82010B009E8CBA /* KeychainAccess */,
 			);
 			productName = "book-review-app";
 			productReference = E784D8F12B81F0C1009E8CBA /* book-review-app.app */;
@@ -118,6 +121,7 @@
 			mainGroup = E784D8E82B81F0C0009E8CBA;
 			packageReferences = (
 				E784D9082B81FFF4009E8CBA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E784D90B2B82010B009E8CBA /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = E784D8F22B81F0C1009E8CBA /* Products */;
 			projectDirPath = "";
@@ -381,6 +385,14 @@
 				minimumVersion = 5.8.1;
 			};
 		};
+		E784D90B2B82010B009E8CBA /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -388,6 +400,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E784D9082B81FFF4009E8CBA /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		E784D90C2B82010B009E8CBA /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E784D90B2B82010B009E8CBA /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -13,6 +13,7 @@
 		E784D8FC2B81F0C1009E8CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E784D8FA2B81F0C1009E8CBA /* Main.storyboard */; };
 		E784D8FE2B81F0C1009E8CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E784D8FD2B81F0C1009E8CBA /* Assets.xcassets */; };
 		E784D9012B81F0C1009E8CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E784D8FF2B81F0C1009E8CBA /* LaunchScreen.storyboard */; };
+		E784D90A2B81FFF4009E8CBA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E784D9092B81FFF4009E8CBA /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E784D90A2B81FFF4009E8CBA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "book-review-app";
+			packageProductDependencies = (
+				E784D9092B81FFF4009E8CBA /* Alamofire */,
+			);
 			productName = "book-review-app";
 			productReference = E784D8F12B81F0C1009E8CBA /* book-review-app.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = E784D8E82B81F0C0009E8CBA;
+			packageReferences = (
+				E784D9082B81FFF4009E8CBA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = E784D8F22B81F0C1009E8CBA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -363,6 +371,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E784D9082B81FFF4009E8CBA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E784D9092B81FFF4009E8CBA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E784D9082B81FFF4009E8CBA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E784D8E92B81F0C0009E8CBA /* Project object */;
 }

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ios-stationsTests.xctest' tests='1' failures='1'>
+  <testsuite name='ios_stationsTests.ios_stationsTests' tests='1' failures='1'>
+    <testcase classname='ios_stationsTests.ios_stationsTests' name='testStation'>
+      <failure message='ビルドエラーまたはランタイムエラーが発生しました。Xcodeで正しくコンパイルやアプリの起動ができているか確認してください。'></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
